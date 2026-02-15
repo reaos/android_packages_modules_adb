@@ -1,0 +1,9 @@
+package: "com.android.adbd.flags"
+container: "com.android.adbd"
+
+flag {
+  name: "adbd_restrict_vsock_local_cid"
+  namespace: "adb"
+  description: "This flag is for restricting local CID access via vsock socket in adbd"
+  bug: "414473085"
+}
